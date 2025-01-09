@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[구글드라이브]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>구글드라이브</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 09 Jan 2025 10:33:35 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 09 Jan 2025 10:33:34 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[$단축키]]></title><description><![CDATA[<a class="tag" href="?query=tag:옵시디언정보" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#옵시디언정보</a> 
+ <br><a href=".?query=tag:옵시디언정보" class="tag" target="_blank" rel="noopener nofollow">#옵시디언정보</a><br><br>목차는 ctrl+p 하여 table of content 입력<br><a rel="noopener nofollow" class="external-link" href="https://statisticsplaybook.com/obsidian-markdown-cheatsheet/" target="_blank">https://statisticsplaybook.com/obsidian-markdown-cheatsheet/</a><br><a data-tooltip-position="top" aria-label="https://computer-science-student.tistory.com/388" data-href="https://computer-science-student.tistory.com/388" href="https://computer-science-student.tistory.com/388" class="internal-link" target="_self" rel="noopener nofollow">토글</a><br><br><br>[!note]<br>Abstract<br>Summary<br>Tldr<br>
+<br>
+Info
+
+<br>Todo<br>Tip<br>Hint<br>Important<br>Success<br>Check
+d
+<br>Done
+d
+<br>Question<br>Help<br>Faq<br>Warning<br>Caution<br>Attention<br>Failure<br>Fail<br>Missing<br>Danger<br>Error<br>Bug<br>Example<br>Quote<br>Cite]]></description><link>옵시디언-관련\옵시디언-팁.html</link><guid isPermaLink="false">옵시디언 관련/옵시디언 팁.md</guid><pubDate>Sun, 15 Dec 2024 14:23:51 GMT</pubDate></item><item><title><![CDATA[최종 프로젝트 dev]]></title><description><![CDATA[<a class="tag" href="?query=tag:최종프로젝트-dev" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#최종프로젝트-dev</a> 
+ <br><a href=".?query=tag:최종프로젝트-dev" class="tag" target="_blank" rel="noopener nofollow">#최종프로젝트-dev</a><br><br><br><br>Todo
+
+<br>소셜 로그인 후 입양 신청, 문의 작성 등 post 기능
+<br>비회원으로 입양신청 시 "로그인 해주세요" 라고 뜨게 바꾸기 (백엔드는 role user로 권한 제한 해두었음)
+<br>회원가입 페이지 로고 없음
+
+<br><br><br><br><br>현재 존재하지 않음.<br><br><br>Should 와 Must 의 차이
+ The main difference between "should" and "must" is that&nbsp;=="should" is used to make a recommendation or suggestion, while "must" is used to express a strong obligation or necessity.
+should는 제안에 가까우며, must는 명령으로 쓰인다.
+<br>@Service  
+@Transactional  
+@RequiredArgsConstructor  
+public class RecommendService {  
+  
+    private final ApiService apiService;  
+    private final PetRepository petRepository;  
+  
+    // 추천된 Pet ID 저장  
+    private final Map&lt;Long, Set&lt;Long&gt;&gt; userRecommendedPets = new HashMap&lt;&gt;();  
+  
+    public Map&lt;String, Object&gt; recommendPet(User user) throws IOException {  
+        try {  
+            // Step 1: 사용자 선호 기준 가져오기  
+            String size = user.getPreferredSize();  
+            String personality = user.getPreferredPersonality();  
+            Integer exerciseLevel = user.getPreferredExerciseLevel();  
+  
+            // Step 2: 사용자가 이미 추천받은 Pet ID 확인  
+            Set&lt;Long&gt; excludedPetIds = userRecommendedPets.getOrDefault(user.getId(), new HashSet&lt;&gt;());  
+  
+            // Step 3: 보호소에서 등록된 Pet 중 제외된 ID를 필터링  
+            List&lt;Pet&gt; filteredPets = petRepository.findAll().stream()  
+                    .filter(pet -&gt; !excludedPetIds.contains(pet.getId()))  
+                    .collect(Collectors.toList());  
+            // No pets avaliable이 발생하면 추천된 반려동물 id 목록 초기화  
+            if (filteredPets.isEmpty()) {  
+                userRecommendedPets.remove(user.getId());  
+                throw new BaseException(ErrorCode.NO_PETS_AVAILABLE);  
+            }  
+  
+            // Step 4: 필터링된 Pet 데이터를 AI에 전달  
+            String petDescriptions = filteredPets.stream()  
+                    .map(pet -&gt; String.format(  
+                            "Name: %s, Id: %s, Size: %s, Personality: %s, Exercise Level: %s",  
+                            pet.getPetName(), pet.getId(), pet.getSize(), pet.getPersonality(), pet.getExerciseLevel(), pet.getStatus()))  
+                    .collect(Collectors.joining("\n"));  
+  
+            String prompt = String.format(  
+                    "User prefers: Size: %s, Personality: %s, Exercise Level: %s." +  
+                            "\nAvailable pets:\n%s\nPlease recommend only one pet with name that perfectly suits to the all of user's preferences, with reason" +  
+                            "If there is no pet that suits, just recommend closest one." +  
+                            "If pet's 'status' is (APPLIED), do not recommend." +  
+                            "There must be id as (Id: ?) at the end." +  
+                            "Answer in Korean.",  
+                    size, personality, exerciseLevel, petDescriptions);  
+  
+            // Step 5: OpenAI 호출  
+            String aiResponseContent = apiService.getRecommendation(prompt);  // aiResponseContent로 바로 처리;  
+            String recommendedId = extractRecommendedId(aiResponseContent);  
+  
+            if (recommendedId == null) {  
+                // recommendedId가 null인 경우, AI 응답만 반환  
+                Map&lt;String, Object&gt; result = new HashMap&lt;&gt;();  
+                result.put("content", aiResponseContent);  
+                return result;  
+            }  
+  
+            // Step 5: 추천된 반려동물 정보 가져오기  
+            Long petId = Long.valueOf(recommendedId);  
+            Pet recommendedPet = petRepository.findById(Long.valueOf(recommendedId))  
+                    .orElseThrow(() -&gt; new BaseException(ErrorCode.PET_NOT_FOUND));  
+  
+            // 추천된 id를 user에 따라 저장  
+            excludedPetIds.add(petId);  
+            userRecommendedPets.put(user.getId(), excludedPetIds);  
+  
+            // petResponseDTO로 변환  
+            PetResponseDTO petResponseDTO = PetResponseDTO.fromEntity(recommendedPet); //dto에 fromEntity 존재, 이걸로 정적 팩토리 메서드 사용  
+  
+            Map&lt;String, Object&gt; result = new HashMap&lt;&gt;();  
+            result.put("content", aiResponseContent); // AI 응답의 content            result.put("petId", petResponseDTO.getPetId()); // 추천된 Pet의 ID            result.put("pet", petResponseDTO); // Pet 정보  
+  
+            return result;  
+        } catch (IOException e) {  
+            throw new BaseException(ErrorCode.AI_COMMUNICATION_ERROR);  
+        }  
+    }  
+  
+    private String extractRecommendedId(String response) {  
+     // "Id :" 뒤에 부분의 id를 읽어서 가져오기
+        Pattern pattern = Pattern.compile("Id:\\s*(\\d+)");
+          
+        Matcher matcher = pattern.matcher(response);  
+  
+        if (matcher.find()) {  
+            return matcher.group(1);  
+        }  
+        return null;  
+    }  
+}
+<br><br>
+<br>월드컵 테이블 제작
+<br>회원가입 후 월드컵 진행 시, 결과를 회원 id에 맞춰 테이블에 저장
+<br>해당 테이블의 정보와 선호 기준을 같이 참고 (예: 종, 활동량 등등)
+<br><br>
+<br>음성 채팅 비서
+<br>자동 확대/축소??
+<br><br>
+<br>
+결론적으로는, 개인적으로 하려면 비용이 크게 들 수 있다.
+
+<br>
+시간이 한정적이다.
+
+<br>
+규용님의 고민 - 배포사이트 없이 로컬로 돌려야 한다.
+
+<br>
+웹이냐 앱이냐
+
+<br>둘다 가져가신다고 함.
+<br>성능 최적화
+<br>오류 페이지 전환
+<br>api 추가적인 부분 나중에 말씀 해주시는걸로
+
+
+<br>
+동시성 문제, 성능 개선 등
+
+<br>동시 접속자 테스트
+<br>자동 매칭 신청
+<br>redis
+
+
+<br>
+소셜 로그인 기능
+
+<br>
+오류 수정
+
+<br>
+<br>
+프론트 작업 후 - 관리자 페이지 후순위 (faq 한번에 볼 수 있는)
+
+<br>
+월드컵, 사용자 편의성, 머신러닝 후순위
+
+<br>오래된 동물을 위한 날짜 추가<br>
+매칭-상세보기-보호소-주소-<br>
+주소 api<br>
+메인 매칭-db-ai 자기 소개 저장된걸로 추가<br><br><br><br>package com.example.tenpaws.domain.voice.controller;  
+  
+  
+import com.example.tenpaws.domain.voice.service.CommandService;  
+import org.springframework.http.ResponseEntity;  
+import org.springframework.web.bind.annotation.PostMapping;  
+import org.springframework.web.bind.annotation.RequestMapping;  
+import org.springframework.web.bind.annotation.RequestParam;  
+import org.springframework.web.bind.annotation.RestController;  
+import org.springframework.web.multipart.MultipartFile;  
+  
+import java.io.File;  
+import java.io.IOException;  
+  
+@RestController  
+@RequestMapping("/v1/voice")  
+public class VoiceController {  
+  
+    private final CommandService commandService;  
+  
+    public VoiceController(CommandService commandService) {  
+        this.commandService = commandService;  
+    }  
+  
+    @PostMapping("/command")  
+    public ResponseEntity&lt;String&gt; processVoiceCommand(@RequestParam("file") MultipartFile file) throws IOException {  
+        // Step 1: MultipartFile을 임시 파일로 저장  
+        File tempFile = File.createTempFile("audio", ".mp3");  
+        file.transferTo(tempFile);  
+  
+        try {  
+            // Step 2: CommandService로 음성 파일 처리 요청  
+            return commandService.handleCommand(tempFile);  
+        } finally {  
+            // Step 3: 임시 파일 삭제  
+            tempFile.delete();  
+        }  
+    }  
+}
+
+<br><br>package com.example.tenpaws.domain.voice.service;  
+  
+import org.springframework.beans.factory.annotation.Value;  
+import org.springframework.http.*;  
+import org.springframework.stereotype.Service;  
+import org.springframework.web.client.RestTemplate;  
+import org.springframework.web.util.UriComponentsBuilder;  
+  
+import java.io.File;  
+import java.nio.file.Files;  
+import java.util.Collections;  
+  
+@Service  
+public class WhisperService {  
+  
+    @Value("${openai.api.key}")  
+    private String API_KEY;  
+    private static final String WHISPER_API_URL = "https://api.openai.com/v1/audio/transcriptions";  
+  
+    public String convertSpeechToText(File audioFile) throws Exception {  
+        // 파일 읽기  
+        byte[] fileBytes = Files.readAllBytes(audioFile.toPath());  
+  
+        // HTTP 요청 구성  
+        HttpHeaders headers = new HttpHeaders();  
+        headers.setContentType(MediaType.MULTIPART_FORM_DATA);  
+        headers.set("Authorization", "Bearer " + API_KEY);  
+  
+        // Body에 파일 추가  
+        HttpEntity&lt;byte[]&gt; entity = new HttpEntity&lt;&gt;(fileBytes, headers);  
+  
+        // REST API 호출  
+        RestTemplate restTemplate = new RestTemplate();  
+        ResponseEntity&lt;String&gt; response = restTemplate.exchange(  
+                WHISPER_API_URL,  
+                HttpMethod.POST,  
+                entity,  
+                String.class  
+        );  
+  
+        // JSON 응답에서 텍스트 추출  
+        if (response.getStatusCode() == HttpStatus.OK) {  
+            String responseBody = response.getBody();  
+            // JSON 파싱 (단순 텍스트 추출로 예시 구현)  
+            return extractTextFromJson(responseBody);  
+        } else {  
+            throw new RuntimeException("Whisper API 호출 실패: " + response.getStatusCode());  
+        }  
+    }  
+  
+    private String extractTextFromJson(String jsonResponse) {  
+        // JSON 문자열에서 텍스트 부분만 추출하는 로직  
+        return jsonResponse.contains("\"text\":\"")  
+                ? jsonResponse.split("\"text\":\"")[1].split("\"")[0]  
+                : "No text found";  
+    }  
+}
+<br><br>package com.example.tenpaws.domain.voice.service;  
+  
+import com.example.tenpaws.global.exception.BaseException;  
+import org.springframework.http.HttpStatus;  
+import org.springframework.http.ResponseEntity;  
+import org.springframework.stereotype.Service;  
+  
+import java.io.File;  
+  
+@Service  
+public class CommandService {  
+  
+    private final WhisperService whisperService;  
+  
+    public CommandService(WhisperService whisperService) {  
+        this.whisperService = whisperService;  
+    }  
+  
+    public ResponseEntity&lt;String&gt; handleCommand(File audioFile) {  
+        try {  
+            // Step 1: 음성을 텍스트로 변환  
+            String commandText = whisperService.convertSpeechToText(audioFile);  
+  
+            // Step 2: 명령 해석  
+            if (commandText.contains("메인")) {  
+                return ResponseEntity.ok("Home 화면으로 이동합니다.");  
+            } else if (commandText.contains("메뉴")) {  
+                return ResponseEntity.ok("메뉴를 표시합니다.");  
+            } else {  
+                return ResponseEntity.status(HttpStatus.BAD_REQUEST)  
+                        .body("알 수 없는 명령입니다: " + commandText);  
+            }  
+  
+        } catch (BaseException e) {  
+            // BaseException이 발생한 경우 클라이언트에게 알림  
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)  
+                    .body("명령 처리 중 오류가 발생했습니다: " + e.getMessage());  
+  
+        } catch (Exception e) {  
+            // 기타 예외를 처리  
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)  
+                    .body("예상치 못한 오류가 발생했습니다: " + e.getMessage());  
+        }  
+    }  
+}
+]]></description><link>프로젝트\pgs프로젝트\최종-프로젝트-dev.html</link><guid isPermaLink="false">프로젝트/pgs프로젝트/최종 프로젝트 dev.md</guid><pubDate>Fri, 20 Dec 2024 04:20:43 GMT</pubDate></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
+ ]]></description><link>프로젝트\무제-파일.html</link><guid isPermaLink="false">프로젝트/무제 파일.md</guid><pubDate>Sat, 14 Dec 2024 06:54:49 GMT</pubDate></item><item><title><![CDATA[권한 설정]]></title><description><![CDATA[<a class="tag" href="?query=tag:권한관련" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#권한관련</a> 
+ <br><a href=".?query=tag:권한관련" class="tag" target="_blank" rel="noopener nofollow">#권한관련</a><br><a rel="noopener nofollow" class="external-link" href="https://gaemi606.tistory.com/entry/Spring-Boot-Spring-Security-PreAuthorize%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" target="_blank">https://gaemi606.tistory.com/entry/Spring-Boot-Spring-Security-PreAuthorize%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</a>]]></description><link>java\권한-설정.html</link><guid isPermaLink="false">Java/권한 설정.md</guid><pubDate>Sun, 08 Dec 2024 05:28:12 GMT</pubDate></item><item><title><![CDATA[자료]]></title><description><![CDATA[ 
+ <br><a rel="noopener nofollow" class="external-link" href="https://m.blog.naver.com/sosow0212/222736076812" target="_blank">https://m.blog.naver.com/sosow0212/222736076812</a>]]></description><link>java\자료.html</link><guid isPermaLink="false">Java/자료.md</guid><pubDate>Tue, 03 Dec 2024 02:01:22 GMT</pubDate></item><item><title><![CDATA[Java Info]]></title><description><![CDATA[ 
+ ]]></description><link>java\java-info.html</link><guid isPermaLink="false">Java/Java Info.md</guid><pubDate>Sun, 21 Jul 2024 14:18:05 GMT</pubDate></item></channel></rss>
