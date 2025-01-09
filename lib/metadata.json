@@ -1,18 +1,19 @@
 {
   "vaultName": "구글드라이브",
-  "lastExport": 1736418814203,
+  "lastExport": 1736436611816,
   "pluginVersion": "1.8.01",
-  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-codeblock-numbers anp-list-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-rainbow-file-toggle anp-full-rainbow-text-color-toggle-light anp-full-rainbow-text-color-toggle-dark anp-simple-rainbow-title-toggle anp-simple-rainbow-collapse-icon-toggle anp-rainbow-subfolder-color-toggle",
+  "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-codeblock-numbers anp-list-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-rainbow-file-toggle anp-full-rainbow-text-color-toggle-light anp-full-rainbow-text-color-toggle-dark anp-simple-rainbow-title-toggle anp-simple-rainbow-collapse-icon-toggle anp-rainbow-subfolder-color-toggle show-ribbon",
   "useCustomHeadContent": false,
   "useCustomFavicon": false,
   "files": [
-    "옵시디언 관련/옵시디언 팁.md",
-    "프로젝트/pgs프로젝트/최종 프로젝트 dev.md",
-    "프로젝트/무제 파일.md",
-    "Java/권한 설정.md",
-    "Java/자료.md",
-    "Java/Java Info.md",
-    "Java/link.md",
+    "🎆blog/옵시디언/옵시디언 팁.md",
+    "🎆blog/유틸/로컬 ai/로컬 ai로 할 수 있는 것들.md",
+    "🎆blog/유틸/로컬 ai/AI냐 머신러닝이냐.md",
+    "🎆blog/유틸/로컬 ai/Docker, Ollama, OpenWebUi.md",
+    "🎆blog/유틸/docker/도커로 업데이트 방법.md",
+    "🎆blog/유틸/docker/Docker.md",
+    "🎆blog/유틸/tools/도구 모음.md",
+    "🎆blog/Home.md",
     "lib/scripts/graph-wasm.wasm",
     "lib/fonts/94f2f163d4b698242fef.otf",
     "lib/fonts/72505e6a122c6acd5471.woff2",
@@ -77,226 +78,232 @@
     "lib/styles/main-styles.css"
   ],
   "fileInfo": {
-    "옵시디언 관련/옵시디언 팁.md": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 642,
-      "exportedPath": "옵시디언-관련/옵시디언-팁.html",
-      "dependencies": []
-    },
-    "프로젝트/pgs프로젝트/최종 프로젝트 dev.md": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 12032,
-      "exportedPath": "프로젝트/pgs프로젝트/최종-프로젝트-dev.html",
-      "dependencies": []
-    },
-    "프로젝트/무제 파일.md": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 0,
-      "exportedPath": "프로젝트/무제-파일.html",
-      "dependencies": []
-    },
-    "Java/권한 설정.md": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 127,
-      "exportedPath": "java/권한-설정.html",
-      "dependencies": []
-    },
-    "Java/자료.md": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 47,
-      "exportedPath": "java/자료.html",
-      "dependencies": []
-    },
-    "Java/Java Info.md": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 0,
-      "exportedPath": "java/java-info.html",
-      "dependencies": []
-    },
-    "Java/link.md": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 0,
-      "exportedPath": "java/link.html",
-      "dependencies": []
-    },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 5366,
+      "modifiedTime": 1736436611816,
+      "sourceSize": 7073,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/scripts/minisearch.js": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 29422,
       "exportedPath": "lib/scripts/minisearch.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1736418814203,
-      "sourceSize": 482,
+      "modifiedTime": 1736436611816,
+      "sourceSize": 669,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 131118,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 272230,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 354,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 3882,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1736418814203,
+      "modifiedTime": 1736436611816,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
+      "dependencies": []
+    },
+    "🎆blog/옵시디언/옵시디언 팁.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 684,
+      "exportedPath": "🎆blog/옵시디언/옵시디언-팁.html",
+      "dependencies": []
+    },
+    "🎆blog/유틸/로컬 ai/로컬 ai로 할 수 있는 것들.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 2239,
+      "exportedPath": "🎆blog/유틸/로컬-ai/로컬-ai로-할-수-있는-것들.html",
+      "dependencies": []
+    },
+    "🎆blog/유틸/로컬 ai/AI냐 머신러닝이냐.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 8229,
+      "exportedPath": "🎆blog/유틸/로컬-ai/ai냐-머신러닝이냐.html",
+      "dependencies": []
+    },
+    "🎆blog/유틸/로컬 ai/Docker, Ollama, OpenWebUi.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 1684,
+      "exportedPath": "🎆blog/유틸/로컬-ai/docker,-ollama,-openwebui.html",
+      "dependencies": []
+    },
+    "🎆blog/유틸/docker/도커로 업데이트 방법.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 750,
+      "exportedPath": "🎆blog/유틸/docker/도커로-업데이트-방법.html",
+      "dependencies": []
+    },
+    "🎆blog/유틸/docker/Docker.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 1084,
+      "exportedPath": "🎆blog/유틸/docker/docker.html",
+      "dependencies": []
+    },
+    "🎆blog/유틸/tools/도구 모음.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 258,
+      "exportedPath": "🎆blog/유틸/tools/도구-모음.html",
+      "dependencies": []
+    },
+    "🎆blog/Home.md": {
+      "modifiedTime": 1736436611816,
+      "sourceSize": 537,
+      "exportedPath": "🎆blog/home.html",
       "dependencies": []
     }
   }

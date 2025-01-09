@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[구글드라이브]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>구글드라이브</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 09 Jan 2025 10:33:35 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 09 Jan 2025 10:33:34 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[$단축키]]></title><description><![CDATA[<a class="tag" href="?query=tag:옵시디언정보" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#옵시디언정보</a> 
- <br><a href=".?query=tag:옵시디언정보" class="tag" target="_blank" rel="noopener nofollow">#옵시디언정보</a><br><br>목차는 ctrl+p 하여 table of content 입력<br><a rel="noopener nofollow" class="external-link" href="https://statisticsplaybook.com/obsidian-markdown-cheatsheet/" target="_blank">https://statisticsplaybook.com/obsidian-markdown-cheatsheet/</a><br><a data-tooltip-position="top" aria-label="https://computer-science-student.tistory.com/388" data-href="https://computer-science-student.tistory.com/388" href="https://computer-science-student.tistory.com/388" class="internal-link" target="_self" rel="noopener nofollow">토글</a><br><br><br>[!note]<br>Abstract<br>Summary<br>Tldr<br>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[구글드라이브]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>구글드라이브</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 09 Jan 2025 15:30:14 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 09 Jan 2025 15:30:11 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[$단축키 ]]></title><description><![CDATA[<a class="tag" href="?query=tag:옵시디언정보" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#옵시디언정보</a> 
+ <br><a href=".?query=tag:옵시디언정보" class="tag" target="_blank" rel="noopener nofollow">#옵시디언정보</a> <br><br>목차는 ctrl+p 하여 table of content 입력<br><a rel="noopener nofollow" class="external-link" href="https://statisticsplaybook.com/obsidian-markdown-cheatsheet/" target="_blank">https://statisticsplaybook.com/obsidian-markdown-cheatsheet/</a><br><a data-tooltip-position="top" aria-label="https://computer-science-student.tistory.com/388" data-href="https://computer-science-student.tistory.com/388" href="https://computer-science-student.tistory.com/388" class="internal-link" target="_self" rel="noopener nofollow">토글</a><br><br><br>[!note]<br>Abstract<br>Summary<br>Tldr<br>
 <br>
 Info
 
@@ -7,301 +7,217 @@ Info
 d
 <br>Done
 d
-<br>Question<br>Help<br>Faq<br>Warning<br>Caution<br>Attention<br>Failure<br>Fail<br>Missing<br>Danger<br>Error<br>Bug<br>Example<br>Quote<br>Cite]]></description><link>옵시디언-관련\옵시디언-팁.html</link><guid isPermaLink="false">옵시디언 관련/옵시디언 팁.md</guid><pubDate>Sun, 15 Dec 2024 14:23:51 GMT</pubDate></item><item><title><![CDATA[최종 프로젝트 dev]]></title><description><![CDATA[<a class="tag" href="?query=tag:최종프로젝트-dev" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#최종프로젝트-dev</a> 
- <br><a href=".?query=tag:최종프로젝트-dev" class="tag" target="_blank" rel="noopener nofollow">#최종프로젝트-dev</a><br><br><br><br>Todo
+<br>Question<br>Help<br>Faq<br>Warning<br>Caution<br>Attention<br>Failure<br>Fail<br>Missing<br>Danger<br>Error<br>Bug<br>Example<br>Quote<br>Cite]]></description><link>🎆blog\옵시디언\옵시디언-팁.html</link><guid isPermaLink="false">🎆blog/옵시디언/옵시디언 팁.md</guid><pubDate>Thu, 09 Jan 2025 13:51:44 GMT</pubDate></item><item><title><![CDATA[로컬 ai로 할 수 있는 것들]]></title><description><![CDATA[ 
+ <br>
+<br>문서화<br>
+자동 문서 생성: 코드 주석이나 함수 설명을 기반으로 API 문서를 자동으로 생성할 수 있습니다. 이는 개발자들이 문서화에 소요하는 시간을 줄여줍니다.<br>
+사용자 매뉴얼 작성: 소프트웨어의 사용법이나 설치 방법을 설명하는 매뉴얼을 AI를 통해 작성할 수 있습니다.
+<br>테스트 자동화<br>
+테스트 케이스 생성: AI를 활용하여 코드의 기능에 맞는 테스트 케이스를 자동으로 생성할 수 있습니다. 이는 테스트 커버리지를 높이는 데 도움이 됩니다.<br>
+버그 탐지: AI를 통해 코드에서 버그를 자동으로 탐지하고, 수정 제안을 받을 수 있습니다.
+<br>데이터 분석<br>
+데이터 전처리: 로컬 AI를 사용하여 데이터 정제, 변환 및 전처리 작업을 자동화할 수 있습니다.<br>
+예측 모델링: 머신러닝 모델을 로컬에서 학습시키고, 예측 결과를 분석하여 비즈니스 인사이트를 도출할 수 있습니다.
+<br>자연어 처리<br>
+챗봇 개발: 로컬 AI를 활용하여 고객 지원 챗봇을 개발하고, FAQ에 대한 자동 응답 기능을 구현할 수 있습니다.<br>
+텍스트 요약 및 번역: 긴 문서를 요약하거나, 다른 언어로 번역하는 데 AI를 활용할 수 있습니다.
+<br>개인화된 추천 시스템<br>
+추천 알고리즘: 사용자의 행동 데이터를 분석하여 개인화된 콘텐츠나 제품 추천 시스템을 구축할 수 있습니다.
+<br>프로젝트 관리<br>
+일정 관리: AI를 통해 프로젝트의 진행 상황을 분석하고, 일정 조정이나 리소스 할당에 대한 제안을 받을 수 있습니다.<br>
+우선순위 설정: 작업의 우선순위를 자동으로 분석하여 효율적인 작업 흐름을 유지할 수 있습니다.
+<br><a rel="noopener nofollow" class="external-link" href="https://deepdaive.com/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%94%94%ED%93%A8%EC%A0%84-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EC%99%B8%EB%B6%80-%EC%9B%90%EA%B2%A9-%EC%A0%91%EC%86%8D-%EB%B0%A9%EB%B2%95/" target="_blank">https://deepdaive.com/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94-%EB%94%94%ED%93%A8%EC%A0%84-%EB%A1%9C%EC%BB%AC-%EC%84%9C%EB%B2%84-%EC%99%B8%EB%B6%80-%EC%9B%90%EA%B2%A9-%EC%A0%91%EC%86%8D-%EB%B0%A9%EB%B2%95/</a><br><a rel="noopener nofollow" class="external-link" href="https://fornewchallenge.tistory.com/entry/%F0%9F%92%A5%ED%95%B5%EA%BF%80%ED%8C%81-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%EC%97%90%EC%84%9C-Ollama-WebUI%EB%A5%BC-%EB%A7%8C%EB%82%98%EB%8A%94-%EB%B0%A9%EB%B2%95-ngrok-%ED%99%9C%EC%9A%A9" target="_blank">https://fornewchallenge.tistory.com/entry/%F0%9F%92%A5%ED%95%B5%EA%BF%80%ED%8C%81-%EC%8A%A4%EB%A7%88%ED%8A%B8%ED%8F%B0%EC%97%90%EC%84%9C-Ollama-WebUI%EB%A5%BC-%EB%A7%8C%EB%82%98%EB%8A%94-%EB%B0%A9%EB%B2%95-ngrok-%ED%99%9C%EC%9A%A9</a>]]></description><link>🎆blog\유틸\로컬-ai\로컬-ai로-할-수-있는-것들.html</link><guid isPermaLink="false">🎆blog/유틸/로컬 ai/로컬 ai로 할 수 있는 것들.md</guid><pubDate>Wed, 20 Nov 2024 17:31:23 GMT</pubDate></item><item><title><![CDATA[AI냐 머신러닝이냐]]></title><description><![CDATA[ 
+ <br><br>반려동물 추천 서비스를 만들기 위해 ChatGPT API를 활용하는 것은 좋은 아이디어입니다. 이 서비스를 구현하기 위해 필요한 주요 단계와 고려사항을 아래에 정리해 보았습니다. <br><br>먼저, 사용자가 어떤 기준으로 반려동물을 추천받고 싶은지 정의해야 합니다. 예를 들어:<br>
+<br>크기 (소형, 중형, 대형)
+<br>털 종류 (짧은 털, 긴 털, 알레르기 유발 여부)
+<br>활동 수준 (활발한, 중간, 조용한)
+<br>성격 (사교적인, 독립적인, 보호적인)
+<br>생활 환경 (아파트, 집, 정원 유무) 
+<br><br>반려동물에 대한 정보를 수집해야 합니다. 각 동물의 특성과 선호 기준을 매칭할 수 있는 데이터베이스가 필요합니다. 예를 들어:<br>
+<br>개: 푸들, 골든 리트리버, 시바 이누 등
+<br>고양이: 페르시안, 러시안 블루, 아메리칸 숏헤어 등 
+<br><br>OpenAI의 ChatGPT API를 사용하여 사용자와의 대화를 처리하고, 추천 알고리즘을 구현합니다. API를 사용하기 위해 다음 단계를 따릅니다: <br>
+<br>API 키 발급: OpenAI 웹사이트에서 API 키를 발급받습니다.
+<br>API 호출: 사용자의 선호 기준을 기반으로 반려동물을 추천하는 요청을 API에 보냅니다.
+<br><br>서비스의 기본 아키텍처는 다음과 같이 구성할 수 있습니다: <br>
+<br>프론트엔드: 사용자 인터페이스 (웹 또는 모바일 앱)
+<br>백엔드: API 호출 및 데이터 처리
+<br>데이터베이스: 반려동물 정보 저장
+<br><br>아래는 Python을 사용하여 ChatGPT API를 호출하고, 사용자의 선호 기준에 따라 반려동물을 추천하는 간단한 예제입니다. <br>import openai
 
-<br>소셜 로그인 후 입양 신청, 문의 작성 등 post 기능
-<br>비회원으로 입양신청 시 "로그인 해주세요" 라고 뜨게 바꾸기 (백엔드는 role user로 권한 제한 해두었음)
-<br>회원가입 페이지 로고 없음
+# OpenAI API 키 설정
+openai.api_key = 'YOUR_API_KEY' ^tr-5ry44tpfn
 
-<br><br><br><br><br>현재 존재하지 않음.<br><br><br>Should 와 Must 의 차이
- The main difference between "should" and "must" is that&nbsp;=="should" is used to make a recommendation or suggestion, while "must" is used to express a strong obligation or necessity.
-should는 제안에 가까우며, must는 명령으로 쓰인다.
-<br>@Service  
-@Transactional  
-@RequiredArgsConstructor  
-public class RecommendService {  
-  
-    private final ApiService apiService;  
-    private final PetRepository petRepository;  
-  
-    // 추천된 Pet ID 저장  
-    private final Map&lt;Long, Set&lt;Long&gt;&gt; userRecommendedPets = new HashMap&lt;&gt;();  
-  
-    public Map&lt;String, Object&gt; recommendPet(User user) throws IOException {  
-        try {  
-            // Step 1: 사용자 선호 기준 가져오기  
-            String size = user.getPreferredSize();  
-            String personality = user.getPreferredPersonality();  
-            Integer exerciseLevel = user.getPreferredExerciseLevel();  
-  
-            // Step 2: 사용자가 이미 추천받은 Pet ID 확인  
-            Set&lt;Long&gt; excludedPetIds = userRecommendedPets.getOrDefault(user.getId(), new HashSet&lt;&gt;());  
-  
-            // Step 3: 보호소에서 등록된 Pet 중 제외된 ID를 필터링  
-            List&lt;Pet&gt; filteredPets = petRepository.findAll().stream()  
-                    .filter(pet -&gt; !excludedPetIds.contains(pet.getId()))  
-                    .collect(Collectors.toList());  
-            // No pets avaliable이 발생하면 추천된 반려동물 id 목록 초기화  
-            if (filteredPets.isEmpty()) {  
-                userRecommendedPets.remove(user.getId());  
-                throw new BaseException(ErrorCode.NO_PETS_AVAILABLE);  
-            }  
-  
-            // Step 4: 필터링된 Pet 데이터를 AI에 전달  
-            String petDescriptions = filteredPets.stream()  
-                    .map(pet -&gt; String.format(  
-                            "Name: %s, Id: %s, Size: %s, Personality: %s, Exercise Level: %s",  
-                            pet.getPetName(), pet.getId(), pet.getSize(), pet.getPersonality(), pet.getExerciseLevel(), pet.getStatus()))  
-                    .collect(Collectors.joining("\n"));  
-  
-            String prompt = String.format(  
-                    "User prefers: Size: %s, Personality: %s, Exercise Level: %s." +  
-                            "\nAvailable pets:\n%s\nPlease recommend only one pet with name that perfectly suits to the all of user's preferences, with reason" +  
-                            "If there is no pet that suits, just recommend closest one." +  
-                            "If pet's 'status' is (APPLIED), do not recommend." +  
-                            "There must be id as (Id: ?) at the end." +  
-                            "Answer in Korean.",  
-                    size, personality, exerciseLevel, petDescriptions);  
-  
-            // Step 5: OpenAI 호출  
-            String aiResponseContent = apiService.getRecommendation(prompt);  // aiResponseContent로 바로 처리;  
-            String recommendedId = extractRecommendedId(aiResponseContent);  
-  
-            if (recommendedId == null) {  
-                // recommendedId가 null인 경우, AI 응답만 반환  
-                Map&lt;String, Object&gt; result = new HashMap&lt;&gt;();  
-                result.put("content", aiResponseContent);  
-                return result;  
-            }  
-  
-            // Step 5: 추천된 반려동물 정보 가져오기  
-            Long petId = Long.valueOf(recommendedId);  
-            Pet recommendedPet = petRepository.findById(Long.valueOf(recommendedId))  
-                    .orElseThrow(() -&gt; new BaseException(ErrorCode.PET_NOT_FOUND));  
-  
-            // 추천된 id를 user에 따라 저장  
-            excludedPetIds.add(petId);  
-            userRecommendedPets.put(user.getId(), excludedPetIds);  
-  
-            // petResponseDTO로 변환  
-            PetResponseDTO petResponseDTO = PetResponseDTO.fromEntity(recommendedPet); //dto에 fromEntity 존재, 이걸로 정적 팩토리 메서드 사용  
-  
-            Map&lt;String, Object&gt; result = new HashMap&lt;&gt;();  
-            result.put("content", aiResponseContent); // AI 응답의 content            result.put("petId", petResponseDTO.getPetId()); // 추천된 Pet의 ID            result.put("pet", petResponseDTO); // Pet 정보  
-  
-            return result;  
-        } catch (IOException e) {  
-            throw new BaseException(ErrorCode.AI_COMMUNICATION_ERROR);  
-        }  
-    }  
-  
-    private String extractRecommendedId(String response) {  
-     // "Id :" 뒤에 부분의 id를 읽어서 가져오기
-        Pattern pattern = Pattern.compile("Id:\\s*(\\d+)");
-          
-        Matcher matcher = pattern.matcher(response);  
-  
-        if (matcher.find()) {  
-            return matcher.group(1);  
-        }  
-        return null;  
-    }  
-}
+def recommend_pet(preferences):
+    prompt = f"사용자의 선호 기준에 맞춰 반려동물을 추천해 주세요: {preferences}"
+    
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "user", "content": prompt}
+        ]
+    )
+    
+    return response['choices'][0]['message']['content']
+
+# 사용자 선호 기준 예시
+user_preferences = {
+    "크기": "소형",
+    "털 종류": "짧은 털",
+    "활동 수준": "중간",
+    "성격": "사교적인",
+    "생활 환경": "아파트"
+} ^tr-tny7zhh4g
+
+# 추천 결과 출력
+recommended_pet = recommend_pet(user_preferences)
+print("추천 반려동물:", recommended_pet)
+<br><br>사용자가 선호 기준을 입력할 수 있는 UI를 설계합니다. 예를 들어, 체크박스, 드롭다운 메뉴 등을 사용하여 사용자가 쉽게 선택할 수 있도록 합니다. <br><br>서비스를 충분히 테스트한 후, 실제 사용자에게 배포합니다. 사용자 피드백을 통해 지속적으로 개선해 나가는 것이 중요합니다. <br>이와 같은 방식으로 ChatGPT API를 활용하여 사용자 맞춤형 반려동물 추천 서비스를 구축할 수 있습니다. 추가적인 질문이나 도움이 필요하면 언제든지 말씀해 주세요! <br>뤼튼 사용하러 가기 &gt; <a rel="noopener nofollow" class="external-link" href="https://agent.wrtn.ai/5xb91l" target="_blank">https://agent.wrtn.ai/5xb91l</a><br>반려동물 추천 알고리즘을 설계하는 것은 사용자의 선호를 이해하고, 이를 기반으로 적합한 반려동물을 추천하는 과정입니다. 아래는 알고리즘 설계를 위한 단계와 고려사항을 정리한 것입니다.<br><br>사용자로부터 다음과 같은 정보를 수집합니다:<br>
+<br>크기: 소형, 중형, 대형
+<br>털 종류: 짧은 털, 긴 털, 알레르기 유발 여부
+<br>활동 수준: 활발한, 중간, 조용한
+<br>성격: 사교적인, 독립적인, 보호적인
+<br>생활 환경: 아파트, 집, 정원 유무 
+<br><br>추천할 반려동물에 대한 정보를 포함하는 데이터베이스를 구축합니다. 각 동물의 특성을 다음과 같이 정리합니다:<br>
+<br>종: 개, 고양이, 기타
+<br>크기: 소형, 중형, 대형
+<br>털 종류: 짧은 털, 긴 털, 알레르기 유발 여부
+<br>활동 수준: 활발한, 중간, 조용한
+<br>성격: 사교적인, 독립적인, 보호적인
+<br>추천 환경: 아파트, 집, 정원 유무 
+<br><br>추천 알고리즘은 사용자의 선호와 반려동물의 특성을 비교하여 적합한 동물을 추천하는 방식으로 설계합니다. 다음은 간단한 추천 알고리즘의 예입니다. <br><br>
+<br>
+기본 필터링: 사용자의 선호 기준에 맞는 반려동물만 필터링합니다.
+
+<br>예: 사용자가 "소형"을 선택하면, 데이터베이스에서 소형 동물만 추출합니다. 
+
+
+<br>
+가중치 기반 점수 매기기: 각 기준에 가중치를 부여하여 점수를 매깁니다.
+
+<br>예: 크기(30%), 털 종류(20%), 활동 수준(30%), 성격(20%) 등으로 가중치를 설정합니다.
+<br>각 동물에 대해 사용자의 선호와 얼마나 일치하는지를 점수로 계산합니다.
+
+
+<br>
+정렬 및 추천: 점수가 높은 순서대로 동물을 정렬하여 추천합니다.
+
+<br><br>아래는 Python을 사용하여 간단한 필터링 및 점수 매기기 알고리즘의 예입니다. <br># 반려동물 데이터베이스 예시
+pets = [
+    {"종": "푸들", "크기": "소형", "털 종류": "짧은 털", "활동 수준": "중간", "성격": "사교적인"},
+    {"종": "골든 리트리버", "크기": "대형", "털 종류": "긴 털", "활동 수준": "활발한", "성격": "사교적인"},
+    {"종": "시바 이누", "크기": "중형", "털 종류": "짧은 털", "활동 수준": "중간", "성격": "독립적인"},
+    # 추가 동물 데이터...
+]
+^tr-2u654ehdb
+
+def score_pet(user_preferences, pet):
+    score = 0
+    weights = {
+        "크기": 0.3,
+        "털 종류": 0.2,
+        "활동 수준": 0.3,
+        "성격": 0.2
+    }
+    
+    # 각 기준에 대해 점수 매기기
+    for key in weights.keys():
+        if user_preferences[key] == pet[key]:
+            score += weights[key] ^tr-84xdrbb5x
+    
+    return score
+
+def recommend_pets(user_preferences):
+    scored_pets = []
+    
+    for pet in pets:
+        pet_score = score_pet(user_preferences, pet)
+        scored_pets.append((pet, pet_score))
+    
+    # 점수에 따라 정렬
+    scored_pets.sort(key=lambda x: x[1], reverse=True) ^tr-g9j4rf496
+    
+    # 추천 결과 반환
+    return [pet[0] for pet in scored_pets if pet[1] &gt; 0]  # 점수가 0보다 큰 동물만 추천 ^tr-tyc7kade8
+
+# 사용자 선호 기준 예시
+user_preferences = {
+    "크기": "소형",
+    "털 종류": "짧은 털",
+    "활동 수준": "중간",
+    "성격": "사교적인"
+} ^tr-pa6u9mfeg
+
+# 추천 결과 출력
+recommended_pets = recommend_pets(user_preferences)
+print("추천 반려동물:", recommended_pets)
+<br><br>추천 알고리즘을 운영하면서 사용자 피드백을 수집하고, 이를 바탕으로 알고리즘을 지속적으로 개선합니다. 예를 들어, 추천된 동물에 대한 사용자의 만족도를 조사하여 가중치를 조정할 수 있습니다. <br><br>
+<br>다양성: 추천 결과의 다양성을 고려하여, 같은 종류의 동물이 여러 개 추천되지 않도록 할 수 있습니다.
+<br>사용자 맞춤형 추천: 사용자의 이전 선택이나 행동을 기반으로 개인화된 추천을 제공할 수 있습니다. 
+<br>이와 같은 방식으로 반려동물 추천 알고리즘을 설계하고 구현할 수 있습니다. 추가적인 질문이나 도움이 필요하면 언제든지 말씀해 주세요! <br>뤼튼 사용하러 가기 &gt; <a rel="noopener nofollow" class="external-link" href="https://agent.wrtn.ai/5xb91l" target="_blank">https://agent.wrtn.ai/5xb91l</a><br>]]></description><link>🎆blog\유틸\로컬-ai\ai냐-머신러닝이냐.html</link><guid isPermaLink="false">🎆blog/유틸/로컬 ai/AI냐 머신러닝이냐.md</guid><pubDate>Thu, 09 Jan 2025 13:51:45 GMT</pubDate></item><item><title><![CDATA[Docker, Ollama, OpenWebUi]]></title><description><![CDATA[<a class="tag" href="?query=tag:docker" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#docker</a> 
+ <br><a rel="noopener nofollow" class="external-link" href="https://www.neozest.com/entry/ChangeDefaultDockerImageLocationOnWindows" target="_blank">https://www.neozest.com/entry/ChangeDefaultDockerImageLocationOnWindows</a><br><a rel="noopener nofollow" class="external-link" href="https://hello-bryan.tistory.com/424" target="_blank">https://hello-bryan.tistory.com/424</a><br>docker 저장소 변경<br>
+<a rel="noopener nofollow" class="external-link" href="https://info-lab.tistory.com/313" target="_blank">https://info-lab.tistory.com/313</a><br><a rel="noopener nofollow" class="external-link" href="https://fornewchallenge.tistory.com/entry/%E2%9A%A1%EF%B8%8F%F0%9F%86%93Lightning-AI-%EB%AC%B4%EB%A3%8C-GPU-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B8%B0%EB%B0%98-AI-%EA%B0%9C%EB%B0%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-Ollama-%EA%B0%80%EC%9D%B4%EB%93%9C" target="_blank">https://fornewchallenge.tistory.com/entry/%E2%9A%A1%EF%B8%8F%F0%9F%86%93Lightning-AI-%EB%AC%B4%EB%A3%8C-GPU-%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C-%EA%B8%B0%EB%B0%98-AI-%EA%B0%9C%EB%B0%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC-Ollama-%EA%B0%80%EC%9D%B4%EB%93%9C</a><br><a rel="noopener nofollow" class="external-link" href="https://blog.oriang.net/69" target="_blank">https://blog.oriang.net/69</a><br><a rel="noopener nofollow" class="external-link" href="https://www.itflashcards.com/blog/ko/ollama-open-webui-2/" target="_blank">https://www.itflashcards.com/blog/ko/ollama-open-webui-2/</a><br>openwebui 업데이트 할때 다른거 건들지 말고 이미지 파일만 풀 해보자. -&gt; 안됨.<br>
+docker stop ollama-webui open-webui<br>
+docker rm -f ollama-webui open-webui<br>docker rm -f ollama-webui<br>
+docker pull ghcr.io/open-webui/open-webui:main  <br>docker volume create --name open-webui<br>
+docker run --rm -v ollama-webui:/from -v open-webui:/to alpine ash -c "cd /from ; cp -av . /to"<br>
+[insert the equivalent command that you used to install with the new Docker image name]<br>docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda<br>docker volume rm ollama-webui<br><a rel="noopener nofollow" class="external-link" href="https://blog.naver.com/cmh348/222089360748" target="_blank">https://blog.naver.com/cmh348/222089360748</a><br><br><a href=".?query=tag:docker" class="tag" target="_blank" rel="noopener nofollow">#docker</a> 업데이트<br>
+<br>docker contatiner 삭제
+<br>docker image pull
+<br>docker image에서 run 해서 이름, 볼륨 디렉토리, 3000포트 적어줌.
+<br>업뎃은 됐지만 볼륨이 null임. 사용되고 있지 않음.
+<br>docker run --rm -v open-webui:/from -v new-volume-name:/to alpine sh -c "cp -a /from/. /to/"
+<br>원래 있던 볼륨 삭제 docker volume rm open-webui
+<br>오 성공! 
+]]></description><link>🎆blog\유틸\로컬-ai\docker,-ollama,-openwebui.html</link><guid isPermaLink="false">🎆blog/유틸/로컬 ai/Docker, Ollama, OpenWebUi.md</guid><pubDate>Thu, 09 Jan 2025 13:51:45 GMT</pubDate></item><item><title><![CDATA[도커로 업데이트 방법]]></title><description><![CDATA[<a class="tag" href="?query=tag:docker" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#docker</a> 
+ <br><a href=".?query=tag:docker" class="tag" target="_blank" rel="noopener nofollow">#docker</a> <br>openwebui 업데이트: 1. 컨테이너 지우고 2. 이미지를 pull하고 3. 다시 실행시키는거 명령(볼륨은 전에 쓰던 이름 그대로)<br>
+docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda<br>docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=<a rel="noopener nofollow" class="external-link" href="http://127.0.0.1:11434" target="_blank">http://127.0.0.1:11434</a> -e PORT=1234 --name open-webui --restart always ghcr.io/open-webui/open-webui:main<br>docker run -d --network=host --gpus all  -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=<a rel="noopener nofollow" class="external-link" href="http://127.0.0.1:11434" target="_blank">http://127.0.0.1:11434</a> -e PORT=4567 --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda]]></description><link>🎆blog\유틸\docker\도커로-업데이트-방법.html</link><guid isPermaLink="false">🎆blog/유틸/docker/도커로 업데이트 방법.md</guid><pubDate>Thu, 09 Jan 2025 13:51:45 GMT</pubDate></item><item><title><![CDATA[플젝 합치는 방법]]></title><description><![CDATA[<a class="tag" href="?query=tag:병합" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#병합</a> 
+ <br><br><a href=".?query=tag:병합" class="tag" target="_blank" rel="noopener nofollow">#병합</a><br><br><br>초기 설정 및 빌드 <br>
+<br>
+백엔드 settings.gradle 이름이 프로젝트 이름으로 되어있는지 확인
+
+<br>
+터미널에서 백엔드 폴더로 이동 -&gt; 그래들 빌드하여 jar 파일 생성되게 하기 : ./gradlew build  (테스트는 환경이 다를  수 있어 fail 나올 수도 있으니 ./gradlew build -x test 해도 무방)
+
+<br>
+빌드된 jar 이름과 backend의 docker파일 내 jar 복사하는 코드, 실행하는 코드에 이름이 일치하는지 확인
+
+<br>
+백엔드에서 생성된 jar 파일 접속되는지 확인, 안되면 포트 확인
+
+<br>
+컴포즈 파일 실행
+
 <br><br>
-<br>월드컵 테이블 제작
-<br>회원가입 후 월드컵 진행 시, 결과를 회원 id에 맞춰 테이블에 저장
-<br>해당 테이블의 정보와 선호 기준을 같이 참고 (예: 종, 활동량 등등)
-<br><br>
-<br>음성 채팅 비서
-<br>자동 확대/축소??
-<br><br>
 <br>
-결론적으로는, 개인적으로 하려면 비용이 크게 들 수 있다.
+인텔리제이 왼쪽에 서비스 클릭 
 
 <br>
-시간이 한정적이다.
+서비스에서 frontend안의 실행되고 있는 컨테이너 파일 클릭
 
 <br>
-규용님의 고민 - 배포사이트 없이 로컬로 돌려야 한다.
+콘솔의 주소로 접속하여 웹사이트 확인
 
-<br>
-웹이냐 앱이냐
-
-<br>둘다 가져가신다고 함.
-<br>성능 최적화
-<br>오류 페이지 전환
-<br>api 추가적인 부분 나중에 말씀 해주시는걸로
+<br><br>docker exec]]></description><link>🎆blog\유틸\docker\docker.html</link><guid isPermaLink="false">🎆blog/유틸/docker/Docker.md</guid><pubDate>Thu, 09 Jan 2025 14:04:45 GMT</pubDate></item><item><title><![CDATA[도구 모음]]></title><description><![CDATA[<a class="tag" href="?query=tag:tools" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#tools</a> 
+ <br><a href=".?query=tag:tools" class="tag" target="_blank" rel="noopener nofollow">#tools</a><br><br><a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=3aZLN-y8n-Y" target="_blank">https://www.youtube.com/watch?v=3aZLN-y8n-Y</a><br>
+목업 - <a rel="noopener nofollow" class="external-link" href="https://shots.so/" target="_blank">https://shots.so/</a><br>
+도식화 - <a rel="noopener nofollow" class="external-link" href="https://app.napkin.ai/signin" target="_blank">https://app.napkin.ai/signin</a> <br>ppt 작업 자동화 - <a rel="noopener nofollow" class="external-link" href="https://www.polarisoffice.com/ko/download" target="_blank">https://www.polarisoffice.com/ko/download</a><br>아이콘 스카우트<br>색조합 - 크로마]]></description><link>🎆blog\유틸\tools\도구-모음.html</link><guid isPermaLink="false">🎆blog/유틸/tools/도구 모음.md</guid><pubDate>Thu, 09 Jan 2025 13:51:45 GMT</pubDate></item><item><title><![CDATA[Home]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
 
 
-<br>
-동시성 문제, 성능 개선 등
+Some example text in column 1
 
-<br>동시 접속자 테스트
-<br>자동 매칭 신청
-<br>redis
+<br>some lists inside as well
+
+<br>more list items
 
 
-<br>
-소셜 로그인 기능
 
-<br>
-오류 수정
 
-<br>
-<br>
-프론트 작업 후 - 관리자 페이지 후순위 (faq 한번에 볼 수 있는)
+This column is twice as wide because it has the value set to 2
 
-<br>
-월드컵, 사용자 편의성, 머신러닝 후순위
 
-<br>오래된 동물을 위한 날짜 추가<br>
-매칭-상세보기-보호소-주소-<br>
-주소 api<br>
-메인 매칭-db-ai 자기 소개 저장된걸로 추가<br><br><br><br>package com.example.tenpaws.domain.voice.controller;  
-  
-  
-import com.example.tenpaws.domain.voice.service.CommandService;  
-import org.springframework.http.ResponseEntity;  
-import org.springframework.web.bind.annotation.PostMapping;  
-import org.springframework.web.bind.annotation.RequestMapping;  
-import org.springframework.web.bind.annotation.RequestParam;  
-import org.springframework.web.bind.annotation.RestController;  
-import org.springframework.web.multipart.MultipartFile;  
-  
-import java.io.File;  
-import java.io.IOException;  
-  
-@RestController  
-@RequestMapping("/v1/voice")  
-public class VoiceController {  
-  
-    private final CommandService commandService;  
-  
-    public VoiceController(CommandService commandService) {  
-        this.commandService = commandService;  
-    }  
-  
-    @PostMapping("/command")  
-    public ResponseEntity&lt;String&gt; processVoiceCommand(@RequestParam("file") MultipartFile file) throws IOException {  
-        // Step 1: MultipartFile을 임시 파일로 저장  
-        File tempFile = File.createTempFile("audio", ".mp3");  
-        file.transferTo(tempFile);  
-  
-        try {  
-            // Step 2: CommandService로 음성 파일 처리 요청  
-            return commandService.handleCommand(tempFile);  
-        } finally {  
-            // Step 3: 임시 파일 삭제  
-            tempFile.delete();  
-        }  
-    }  
-}
 
-<br><br>package com.example.tenpaws.domain.voice.service;  
-  
-import org.springframework.beans.factory.annotation.Value;  
-import org.springframework.http.*;  
-import org.springframework.stereotype.Service;  
-import org.springframework.web.client.RestTemplate;  
-import org.springframework.web.util.UriComponentsBuilder;  
-  
-import java.io.File;  
-import java.nio.file.Files;  
-import java.util.Collections;  
-  
-@Service  
-public class WhisperService {  
-  
-    @Value("${openai.api.key}")  
-    private String API_KEY;  
-    private static final String WHISPER_API_URL = "https://api.openai.com/v1/audio/transcriptions";  
-  
-    public String convertSpeechToText(File audioFile) throws Exception {  
-        // 파일 읽기  
-        byte[] fileBytes = Files.readAllBytes(audioFile.toPath());  
-  
-        // HTTP 요청 구성  
-        HttpHeaders headers = new HttpHeaders();  
-        headers.setContentType(MediaType.MULTIPART_FORM_DATA);  
-        headers.set("Authorization", "Bearer " + API_KEY);  
-  
-        // Body에 파일 추가  
-        HttpEntity&lt;byte[]&gt; entity = new HttpEntity&lt;&gt;(fileBytes, headers);  
-  
-        // REST API 호출  
-        RestTemplate restTemplate = new RestTemplate();  
-        ResponseEntity&lt;String&gt; response = restTemplate.exchange(  
-                WHISPER_API_URL,  
-                HttpMethod.POST,  
-                entity,  
-                String.class  
-        );  
-  
-        // JSON 응답에서 텍스트 추출  
-        if (response.getStatusCode() == HttpStatus.OK) {  
-            String responseBody = response.getBody();  
-            // JSON 파싱 (단순 텍스트 추출로 예시 구현)  
-            return extractTextFromJson(responseBody);  
-        } else {  
-            throw new RuntimeException("Whisper API 호출 실패: " + response.getStatusCode());  
-        }  
-    }  
-  
-    private String extractTextFromJson(String jsonResponse) {  
-        // JSON 문자열에서 텍스트 부분만 추출하는 로직  
-        return jsonResponse.contains("\"text\":\"")  
-                ? jsonResponse.split("\"text\":\"")[1].split("\"")[0]  
-                : "No text found";  
-    }  
-}
-<br><br>package com.example.tenpaws.domain.voice.service;  
-  
-import com.example.tenpaws.global.exception.BaseException;  
-import org.springframework.http.HttpStatus;  
-import org.springframework.http.ResponseEntity;  
-import org.springframework.stereotype.Service;  
-  
-import java.io.File;  
-  
-@Service  
-public class CommandService {  
-  
-    private final WhisperService whisperService;  
-  
-    public CommandService(WhisperService whisperService) {  
-        this.whisperService = whisperService;  
-    }  
-  
-    public ResponseEntity&lt;String&gt; handleCommand(File audioFile) {  
-        try {  
-            // Step 1: 음성을 텍스트로 변환  
-            String commandText = whisperService.convertSpeechToText(audioFile);  
-  
-            // Step 2: 명령 해석  
-            if (commandText.contains("메인")) {  
-                return ResponseEntity.ok("Home 화면으로 이동합니다.");  
-            } else if (commandText.contains("메뉴")) {  
-                return ResponseEntity.ok("메뉴를 표시합니다.");  
-            } else {  
-                return ResponseEntity.status(HttpStatus.BAD_REQUEST)  
-                        .body("알 수 없는 명령입니다: " + commandText);  
-            }  
-  
-        } catch (BaseException e) {  
-            // BaseException이 발생한 경우 클라이언트에게 알림  
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)  
-                    .body("명령 처리 중 오류가 발생했습니다: " + e.getMessage());  
-  
-        } catch (Exception e) {  
-            // 기타 예외를 처리  
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)  
-                    .body("예상치 못한 오류가 발생했습니다: " + e.getMessage());  
-        }  
-    }  
-}
-]]></description><link>프로젝트\pgs프로젝트\최종-프로젝트-dev.html</link><guid isPermaLink="false">프로젝트/pgs프로젝트/최종 프로젝트 dev.md</guid><pubDate>Fri, 20 Dec 2024 04:20:43 GMT</pubDate></item><item><title><![CDATA[무제 파일]]></title><description><![CDATA[ 
- ]]></description><link>프로젝트\무제-파일.html</link><guid isPermaLink="false">프로젝트/무제 파일.md</guid><pubDate>Sat, 14 Dec 2024 06:54:49 GMT</pubDate></item><item><title><![CDATA[권한 설정]]></title><description><![CDATA[<a class="tag" href="?query=tag:권한관련" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#권한관련</a> 
- <br><a href=".?query=tag:권한관련" class="tag" target="_blank" rel="noopener nofollow">#권한관련</a><br><a rel="noopener nofollow" class="external-link" href="https://gaemi606.tistory.com/entry/Spring-Boot-Spring-Security-PreAuthorize%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" target="_blank">https://gaemi606.tistory.com/entry/Spring-Boot-Spring-Security-PreAuthorize%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0</a>]]></description><link>java\권한-설정.html</link><guid isPermaLink="false">Java/권한 설정.md</guid><pubDate>Sun, 08 Dec 2024 05:28:12 GMT</pubDate></item><item><title><![CDATA[자료]]></title><description><![CDATA[ 
- <br><a rel="noopener nofollow" class="external-link" href="https://m.blog.naver.com/sosow0212/222736076812" target="_blank">https://m.blog.naver.com/sosow0212/222736076812</a>]]></description><link>java\자료.html</link><guid isPermaLink="false">Java/자료.md</guid><pubDate>Tue, 03 Dec 2024 02:01:22 GMT</pubDate></item><item><title><![CDATA[Java Info]]></title><description><![CDATA[ 
- ]]></description><link>java\java-info.html</link><guid isPermaLink="false">Java/Java Info.md</guid><pubDate>Sun, 21 Jul 2024 14:18:05 GMT</pubDate></item></channel></rss>
+
+You can even have columns inside columns!
+More example text inside this column]]></description><link>🎆blog\home.html</link><guid isPermaLink="false">🎆blog/Home.md</guid><pubDate>Thu, 09 Jan 2025 15:29:44 GMT</pubDate></item></channel></rss>
