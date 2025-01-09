@@ -1,5 +1,5 @@
 {
-  "vaultName": "구글드라이브",
+  "vaultName": "Junoverse",
   "lastExport": 1736436611816,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title ctp-latte ctp-mocha ctp-accent-rosewater anuppuccin-accent-toggle anp-codeblock-numbers anp-list-toggle anp-h1-red anp-h2-peach anp-h3-green anp-h4-teal anp-h5-lavender anp-h6-mauve anp-decoration-toggle anp-bold-red anp-italic-green anp-highlight-yellow anp-rainbow-file-toggle anp-full-rainbow-text-color-toggle-light anp-full-rainbow-text-color-toggle-dark anp-simple-rainbow-title-toggle anp-simple-rainbow-collapse-icon-toggle anp-rainbow-subfolder-color-toggle show-ribbon",
@@ -303,7 +303,7 @@
     "🎆blog/Home.md": {
       "modifiedTime": 1736436611816,
       "sourceSize": 537,
-      "exportedPath": "🎆blog/home.html",
+      "exportedPath": "/index.html",
       "dependencies": []
     }
   }
